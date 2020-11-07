@@ -77,6 +77,7 @@ body{
     font-size: 18px;
     /*font-family: "PublicSans-Thin";*/
     font-family: "PublicSans-Regular";
+    overflow-x: hidden;
 }
 .main{
     position: relative;
@@ -108,7 +109,7 @@ body{
 .img-top{
     position: absolute;
     top: -51px;
-    right: -250px;
+    right: -115px;
     z-index: 1;
     
 }
@@ -121,10 +122,10 @@ body{
 }
 .bg-top{
     background-color: #F8F9FA;
-    padding: 20px 0px;
+    /*padding: 20px 0px;*/
 }
 .card{
-    padding: 15px;
+    /*padding: 15px;*/
     border: none;
 }
 .circle_img{
@@ -145,7 +146,7 @@ body{
 .btn-menu{
     position: relative;
     top: -10px;
-    right: -250px;
+    right: -107px;
     height: 44px;
 }
 .bg-grayish{
@@ -173,5 +174,12 @@ body{
 }
 .btn-footer{
     position: initial;
+}
+.card-img-top{
+   
+}
+.h-max{
+    max-height: 181px;
+    height: 180px;
 }
 
