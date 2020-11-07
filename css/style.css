@@ -1,0 +1,177 @@
+@font-face{
+    font-family: "PublicSans-Black";
+    src: url(../fonts/Public_Sans/static/PublicSans-Black.ttf);
+}
+@font-face{
+    font-family: "PublicSans-BlackItalic"; 
+    src: url(../fonts/Public_Sans/static/PublicSans-BlackItalic.ttf);
+}
+@font-face{
+    font-family: "PublicSans-Bold"; 
+    src: url(../fonts/Public_Sans/static/PublicSans-Bold.ttf);
+}
+@font-face{
+    font-family: "PublicSans-BoldItalic"; 
+    src: url(../fonts/Public_Sans/static/PublicSans-BoldItalic.ttf);
+}
+@font-face{
+    font-family: "PublicSans-ExtraBold"; 
+    src: url(../fonts/Public_Sans/static/PublicSans-ExtraBold.ttf);
+}
+@font-face{
+    font-family: "PublicSans-ExtraBoldItalic"; 
+    src:url(../fonts/Public_Sans/static/PublicSans-ExtraBoldItalic.ttf);
+}
+@font-face{
+    font-family: "PublicSans-ExtraLight"; 
+    src: url(../fonts/Public_Sans/static/PublicSans-ExtraLight.ttf);
+}
+@font-face{
+    font-family: "PublicSans-ExtraLightItalic"; 
+    src: url(../fonts/Public_Sans/static/PublicSans-ExtraLightItalic.ttf);
+}
+@font-face{
+    font-family: "PublicSans-Italic"; 
+    src: url(../fonts/Public_Sans/static/PublicSans-Italic.ttf);
+}
+@font-face{
+    font-family: "PublicSans-Light"; 
+    src: url(../fonts/Public_Sans/static/PublicSans-Light.ttf);
+}
+@font-face{
+    font-family: "PublicSans-LightItalic"; 
+    src: url(../fonts/Public_Sans/static/PublicSans-LightItalic.ttf);
+}
+@font-face{
+    font-family: "PublicSans-Medium"; 
+    src: url(../fonts/Public_Sans/static/PublicSans-Medium.ttf);
+}
+@font-face{
+    font-family: "PublicSans-MediumItalic"; 
+    src: url(../fonts/Public_Sans/static/PublicSans-MediumItalic.ttf);
+}
+@font-face{
+    font-family: "PublicSans-Regular"; 
+    src: url(../fonts/Public_Sans/static/PublicSans-Regular.ttf);
+}
+@font-face{
+    font-family: "PublicSans-SemiBold"; 
+    src: url(../fonts/Public_Sans/static/PublicSans-SemiBold.ttf);
+}
+@font-face{
+    font-family: "PublicSans-SemiBoldItalic"; 
+    src: url(../fonts/Public_Sans/static/PublicSans-SemiBoldItalic.ttf);
+}
+@font-face{
+    font-family: "PublicSans-Thin"; 
+    src: url(../fonts/Public_Sans/static/PublicSans-Thin.ttf);
+}
+@font-face{
+    font-family: "PublicSans-ThinItalic"; 
+    src: url(../fonts/Public_Sans/static/PublicSans-ThinItalic.ttf);
+}
+html{
+    overflow-x: hidden;
+}
+body{
+    font-size: 18px;
+    /*font-family: "PublicSans-Thin";*/
+    font-family: "PublicSans-Regular";
+}
+.main{
+    position: relative;
+}
+.btn-primary{
+    background-image: linear-gradient(to right,hsl(136, 65%, 51%),hsl(192, 70%, 51%)); 
+    border: none;
+    border-radius: 150px;
+    margin: 17px 0;
+    width: 150px;
+}
+.navbar-toggler{
+    border:none;
+}
+.navbar{
+    padding: 0.5rem 3rem;
+    z-index: 2;
+}
+.navbar-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.active{
+    border-bottom: 3px solid hsl(136, 65%, 51%);
+}
+.bg-light{
+    background-color: #ffffff !important;
+}
+.img-top{
+    position: absolute;
+    top: -51px;
+    right: -250px;
+    z-index: 1;
+    
+}
+.img-back{
+    background-color: #F8F9FA;
+    background-image: url("../images/bg-intro-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 79%;
+    background-position: 226% 68%;
+}
+.bg-top{
+    background-color: #F8F9FA;
+    padding: 20px 0px;
+}
+.card{
+    padding: 15px;
+    border: none;
+}
+.circle_img{
+    width: 33%;
+    margin-left: 20px;
+}
+.car-white{
+    background-color: #ffffff;
+}
+.card-text{
+    font-size: 16px;
+    color: rgba(0,0,0,.5)
+}
+#navbarNavAltMarkup{
+    display: flex;
+    justify-content: center;
+}
+.btn-menu{
+    position: relative;
+    top: -10px;
+    right: -250px;
+    height: 44px;
+}
+.bg-grayish{
+    background-color: hsl(220, 16%, 96%); 
+    padding: 43px 0;
+}
+.space-art{
+    padding: 39px 50px 0px;
+}
+.bg-footer{
+    background-color: hsl(233, 26%, 24%);
+    padding: 30px 0;
+   
+}
+.bg-footer a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.bg-footer a:hover{
+    color: hsl(136, 65%, 51%);
+
+}
+.logo{
+    display: inline-block;
+}
+.btn-footer{
+    position: initial;
+}
+
