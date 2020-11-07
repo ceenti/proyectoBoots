@@ -139,10 +139,10 @@ body{
     font-size: 16px;
     color: rgba(0,0,0,.5)
 }
-#navbarNavAltMarkup{
+/* #navbarNavAltMarkup{
     display: flex;
     justify-content: center;
-}
+} */
 .btn-menu{
     position: relative;
     top: -10px;
@@ -182,4 +182,16 @@ body{
     max-height: 181px;
     height: 180px;
 }
+@media screen and  (max-width: 1024px){
+    .navbar{
+        padding: 0;
+    }
+    .navbarNavAltMarkup{
+        text-align: center;
+    }
+    .navbar-nav{
+        align-items: center;
+    }
+    
 
+}
