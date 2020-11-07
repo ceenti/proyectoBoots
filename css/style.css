@@ -139,6 +139,10 @@ body{
     font-size: 16px;
     color: rgba(0,0,0,.5)
 }
+.desk-menu{
+    text-align: center;
+    justify-content: space-around;
+}
 /* #navbarNavAltMarkup{
     display: flex;
     justify-content: center;
@@ -186,8 +190,9 @@ body{
     .navbar{
         padding: 0;
     }
-    .navbarNavAltMarkup{
+    .desk-menu{
         text-align: center;
+        justify-content: space-around;
     }
     .navbar-nav{
         align-items: center;
