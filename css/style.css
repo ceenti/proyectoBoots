@@ -182,7 +182,7 @@ body{
     max-height: 181px;
     height: 180px;
 }
-@media screen and  (max-width: 1024px){
+@media screen and  (max-width: 767px){
     .navbar{
         padding: 0;
     }
@@ -192,6 +192,61 @@ body{
     .navbar-nav{
         align-items: center;
     }
-    
+    .img-top {
+        position: relative;
+        top: -102px;
+        right: 0;
+        z-index: 1;
+    }
+    .img-up{
+        background-color: #F8F9FA;
+        background-image: url("../images/bg-intro-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: top;
+    }
+    .bg-top{
+        margin: 20px auto;
+    }
+    .circle_img {
+        width: 25%;
+        margin: 0 auto;
+    }
+    .bg-grayish {
+        padding: 0;
+        text-align: center;
+        display: contents;
+    }
+    .card{
+        text-align: center;
+    }
+    .card-title{
+        font-size: .9rem;
+    }
+    .card-subtitle{
+        font-size: .5rem;
+    }
+    .card-text {
+        font-size: 11px;
+    }
+    .space-art{
+        font-size: 1.5rem;
+    }
+    .card-article{
+        text-align: left;
+    }
+    .align-items-start {
+        align-items: center !important;
+    }
+    .content-footer{
+        display: flex;
+        text-align: center;
+        font-size: 11px;
+        line-height: 2em;
+    }
+    .row {
 
+        text-align: center;
+        margin: 0 auto;
+    }
 }
